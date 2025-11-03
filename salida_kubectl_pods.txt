@@ -1,0 +1,26 @@
+NAMESPACE       NAME                                                READY   STATUS      RESTARTS      AGE
+argocd          argocd-application-controller-0                     1/1     Running     0             83m
+argocd          argocd-applicationset-controller-86bfbfd54c-4z8w4   1/1     Running     0             83m
+argocd          argocd-dex-server-86bd88bb45-62mtf                  1/1     Running     0             83m
+argocd          argocd-notifications-controller-67cc46b754-kdjzr    1/1     Running     0             83m
+argocd          argocd-redis-757f74dd67-fxmbq                       1/1     Running     0             83m
+argocd          argocd-repo-server-584c99df7d-b6wtf                 1/1     Running     0             83m
+argocd          argocd-server-5496498b9-bzpg7                       1/1     Running     0             83m
+dev             dev-webapp-69c85ccbdd-27ftj                         1/1     Running     0             48m
+dev             dev-webapp-69c85ccbdd-f7ll9                         1/1     Running     0             48m
+ingress-nginx   ingress-nginx-admission-create-s7hqh                0/1     Completed   0             83m
+ingress-nginx   ingress-nginx-admission-patch-skwx5                 0/1     Completed   1             83m
+ingress-nginx   ingress-nginx-controller-9cc49f96f-pj7xg            1/1     Running     0             83m
+kube-system     coredns-66bc5c9577-sdgsk                            1/1     Running     0             84m
+kube-system     etcd-minikube                                       1/1     Running     0             84m
+kube-system     kube-apiserver-minikube                             1/1     Running     0             84m
+kube-system     kube-controller-manager-minikube                    1/1     Running     0             84m
+kube-system     kube-proxy-q5qlv                                    1/1     Running     0             84m
+kube-system     kube-scheduler-minikube                             1/1     Running     0             84m
+kube-system     metrics-server-85b7d694d7-dq9nf                     1/1     Running     0             83m
+kube-system     storage-provisioner                                 1/1     Running     1 (84m ago)   84m
+prod            prod-webapp-6f9b755476-crsf5                        1/1     Running     0             48m
+prod            prod-webapp-6f9b755476-jd2bc                        1/1     Running     0             48m
+prod            prod-webapp-6f9b755476-lr2k6                        1/1     Running     0             48m
+staging         staging-webapp-6d5c5749dd-cwsng                     1/1     Running     0             48m
+staging         staging-webapp-6d5c5749dd-q5flr                     1/1     Running     0             48m
